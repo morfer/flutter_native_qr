@@ -16,7 +16,7 @@ native_qr:
   git:
     url: https://github.com/morfer/flutter_native_qr.git
     ref: trunk
-
+```
 
 
 
