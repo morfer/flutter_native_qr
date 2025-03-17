@@ -1,3 +1,24 @@
+# FIXING NAMESPACE ERROS:
+
+If you are facing this in your project:
+
+##FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':native_qr'.
+> Could not create an instance of type com.android.build.api.variant.impl.LibraryVariantBuilderImpl.
+   > Namespace not specified. Specify a namespace in the module's build file. See https://d.android.com/r/tools/upgrade-assistant/set-namespace for information about setting the namespace.
+
+Just use this repo like that:
+
+  native_qr:
+    git:
+      url: https://github.com/morfer/flutter_native_qr.git
+      ref: trunk
+
+
+---- ORIGINAL README -----
+
 # native_qr
 
 The simplest QR code scanner for Flutter ever.
