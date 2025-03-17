@@ -11,13 +11,11 @@ A problem occurred configuring project ':native_qr'.
 
 Just use this repo like that:
 
-  native_qr:
+native_qr:
+  git:
+    url: https://github.com/morfer/flutter_native_qr.git
+    ref: trunk
 
-    git:
-
-      url: https://github.com/morfer/flutter_native_qr.git
-
-      ref: trunk
 
 
 
